@@ -1,0 +1,64 @@
+﻿#banner {
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    grid-area: 1 / 1 / span 1 / span 5;
+}
+
+body {
+    align-self: center;
+    min-height: 100vh;
+    max-width: 100%;
+    position: relative;
+    border: solid #B32821;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    border-width: 50px 50px 50px 50px;
+    margin: -10px;
+    
+}
+
+#inputs {
+    padding: 8px 8px 8px 8px;
+    margin-left: 20px;
+    grid-area: 2 / 1 / span 2 / span 5;
+}
+
+input[type = text] {
+    margin-right: 40px;
+    margin-left: -10px;
+}
+
+#labels {
+    margin-top: 10px;
+    margin-left: 20px;
+    grid-area: 1 / 1 / span 1 / span 5;
+    position: relative;
+}
+
+
+#personalInfo {
+    position: absolute;
+}
+
+#intro {
+    grid-area: 1 / 1 / span 1 / span 3;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#form {
+    grid-area: 1 / 1 / span 2 / span 5;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    display: block;
+}
+
+#myButton {
+    margin-top: 50px;
+    margin-left: 20px;
+    grid-area: 2 / 1 / span 2 / span 2;
+}
