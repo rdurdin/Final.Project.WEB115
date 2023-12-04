@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B3DE6D2-80D5-4B08-A3C9-D6DC1D2C9D2D}"
 	ProjectSection(SolutionItems) = preProject
 		finalProject.html = finalProject.html
+		popUpCSS.css = popUpCSS.css
 		projectCSS.css = projectCSS.css
 		projectJS.js = projectJS.js
 	EndProjectSection

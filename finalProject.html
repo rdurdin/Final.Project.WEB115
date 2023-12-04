@@ -5,43 +5,77 @@
     <meta charset="utf-8" />
     <title>WEB- 115 Final Project</title>
     <link rel="stylesheet" href="projectCSS.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+    <div id="grid">
+        <div id="dim">
+            <header id="banner">Build Your Meal Plan&emsp;&nbsp;&nbsp;WEB 115&emsp;&nbsp;0001&emsp;Raegan Durdin</header>
 
-    <header id="banner">Build Your Meal Plan&emsp;&nbsp;&nbsp;WEB 115&emsp;&nbsp;0001&emsp;Raegan Durdin</header>
+            <p id="intro">Welcome to your weekly meal plan! Please fill out the form below.</p>
 
-    <p id="intro">Welcome to your weekly meal plan! Please fill out the form below.</p>
+            <form id="form">
+                <div id="labels">
+                    <label id="breakfast">Breakfast Meal</label>
+                    <label id="snackOne">Morning Snack</label>
+                    <label id="lunch">Lunch Meal</label>
+                    <label id="snackTwo">Afternoon Snack</label>
+                    <label id="dinner">Dinner Meal </label>
+                </div>
 
-    <form id="form">
-        <div id="labels">
-            <label>Breakfast Meal: &emsp;&emsp;&emsp;&emsp;&emsp;</label>
-            <label>Morning Snack: &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;</label>
-            <label>Lunch Meal: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
-            <label>Afternoon Snack: &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;</label>
-            <label>Dinner Meal: </label>
+                <div id="inputs">
+                    <input type="text" id="breakfastInput1" maxlength="40" />
+                    <input type="text" id="snack1Input1" maxlength="40" />
+                    <input type="text" id="lunchInput1" maxlength="40" />
+                    <input type="text" id="snack2Input1" maxlength="40" />
+                    <input type="text" id="dinnerInput1" maxlength="40" />
+                    <input type="text" id="breakfastInput2" maxlength="40" />
+                    <input type="text" id="snack1Input2" maxlength="40" />
+                    <input type="text" id="lunchInput2" maxlength="40" />
+                    <input type="text" id="snack2Input2" maxlength="40" />
+                    <input type="text" id="dinnerInput2" maxlength="40" />
+                    <input type="text" id="breakfastInput3" maxlength="40" />
+                    <input type="text" id="snack1Input3" maxlength="40" />
+                    <input type="text" id="lunchInput3" maxlength="40" />
+                    <input type="text" id="snack2Input3" maxlength="40" />
+                    <input type="text" id="dinnerInput3" maxlength="40" />
+                    <input type="text" id="breakfastInput4" maxlength="40" />
+                    <input type="text" id="snack1Input4" maxlength="40" />
+                    <input type="text" id="lunchInput4" maxlength="40" />
+                    <input type="text" id="snack2Input4" maxlength="40" />
+                    <input type="text" id="dinnerInput4" maxlength="40" />
+                    <input type="text" id="breakfastInput5" maxlength="40" />
+                    <input type="text" id="snack1Input5" maxlength="40" />
+                    <input type="text" id="lunchInput5" maxlength="40" />
+                    <input type="text" id="snack2Input5" maxlength="40" />
+                    <input type="text" id="dinnerInput5" maxlength="40" />
+                    <input type="text" id="breakfastInput6" maxlength="40" />
+                    <input type="text" id="snack1Input6" maxlength="40" />
+                    <input type="text" id="lunchInput6" maxlength="40" />
+                    <input type="text" id="snack2Input6" maxlength="40" />
+                    <input type="text" id="dinnerInput6" maxlength="40" />
+                    <input type="text" id="breakfastInput7" maxlength="40" />
+                    <input type="text" id="snack1Input7" maxlength="40" />
+                    <input type="text" id="lunchInput7" maxlength="40" />
+                    <input type="text" id="snack2Input7" maxlength="40" />
+                    <input type="text" id="dinnerInput7" maxlength="40" />
+                </div>
+                <input type="button" id="myButton" value="PRESS ME" />
+            </form>
         </div>
+        <form id="ad">
+            <div id="personalInfo">
+                <input type="text" id="nameInput" placeholder="Name" />
 
-        <div id="inputs">
-            <input type="text" id="breakfastInput" />
-            <input type="text" id="snack1Input" />
-            <input type="text" id="lunchInput" />
-            <input type="text" id="snack2Input" />
-            <input type="text" id="dinnerInput" />
-        </div>
+                <input type="text" id="emailInput" placeholder="Email Address" required/>
 
-        <div id="personalInfo">
-            <label>Name: </label>
-            <input type="text" id="nameInput" />
+                <input type="text" id="goalInput" placeholder="Personal Goal" />
 
-            <label><br />Email: </label>
-            <input type="text" id="emailInput" required />
-
-            <label><br />Goal: </label>
-            <input type="text" id="goalInput" />
-        </div>
-
-        <input type="button" id="myButton" value="PRESS ME" />
-    </form>
+                <input type="button" id="submitButton" value="PRESS ME" />
+            </div>
+            <img src="https://c.pxhere.com/images/67/0d/a1c01c6524d7fe3233df328ac14b-1637641.jpg!d" alt="workoutAdPhoto"/>
+        </form>
+    </div>
 
     <script src="projectJS.js"></script>
 </body>

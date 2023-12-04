@@ -1,0 +1,109 @@
+﻿html, body {
+    margin:0;
+    height: 100%;
+}
+
+img {
+    display:block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    position: relative;
+}
+
+.check1 {
+    position: absolute;
+    top: 22%;
+    width: 1920px;
+    height: 30px;
+}
+
+.check2 {
+    position: absolute;
+    top: 28%;
+    width: 1920px;
+    height: 30px;
+}
+
+.check3 {
+    position: absolute;
+    top: 34%;
+    width: 1920px;
+    height: 30px;
+}
+
+.check4 {
+    position: absolute;
+    top: 40%;
+    width: 1920px;
+    height: 30px;
+}
+
+.check5 {
+    position: absolute;
+    top: 46%;
+    width: 1920px;
+    height: 30px;
+}
+
+.check6 {
+    position: absolute;
+    top: 62%;
+    width: 1920px;
+    height: 30px;
+}
+
+.check7 {
+    position: absolute;
+    top: 68%;
+    width: 1920px;
+    height: 30px;
+}
+
+.check8 {
+    position: absolute;
+    top: 74%;
+    width: 1920px;
+    height: 30px;
+}
+
+.check9 {
+    position: absolute;
+    top: 80%;
+    width: 1920px;
+    height: 30px;
+}
+
+.check10 {
+    position: absolute;
+    top: 86%;
+    width: 1920px;
+    height: 30px;
+}
+
+.col1 {
+    position: absolute;
+    left: 65px;
+}
+
+.col2 {
+    position: absolute;
+    left: 530px;
+}
+
+.col3 {
+    position: absolute;
+    left: 995px;
+}
+
+.col4 {
+    position: absolute;
+    left: 1470px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

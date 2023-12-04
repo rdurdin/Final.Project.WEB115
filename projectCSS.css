@@ -1,8 +1,20 @@
 ﻿#banner {
-    text-align: right;
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
     grid-area: 1 / 1 / span 1 / span 5;
+    background-color: #FFF5CF;
+}
+#dim {
+    align-self: center;
+    min-height: 100vh;
+    max-width: 100%;
+    position: relative;
+    padding: 30px;
+    margin: -10px;
+    grid-area: 1 / 1 / span 4 / span 5;
+    text-align: center;
+    display: inline-block;
 }
 
 body {
@@ -10,55 +22,128 @@ body {
     min-height: 100vh;
     max-width: 100%;
     position: relative;
-    border: solid #B32821;
     padding: 30px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    border-width: 50px 50px 50px 50px;
     margin: -10px;
-    
+    border: solid #920C07;
+    border-width: 50px 50px 50px 50px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-self: center;
+    min-height: 100vh;
+    max-width: 100%;
+    position: relative;
+    padding: 30px;
+    margin: -10px;
 }
 
 #inputs {
     padding: 8px 8px 8px 8px;
-    margin-left: 20px;
-    grid-area: 2 / 1 / span 2 / span 5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    position: absolute;
 }
 
 input[type = text] {
-    margin-right: 40px;
-    margin-left: -10px;
+    margin-bottom: 2%;
+    max-width: 175px;
+    margin-right: 50px;
 }
 
 #labels {
     margin-top: 10px;
-    margin-left: 20px;
     grid-area: 1 / 1 / span 1 / span 5;
     position: relative;
-}
-
-
-#personalInfo {
-    position: absolute;
+    text-align: center;
 }
 
 #intro {
-    grid-area: 1 / 1 / span 1 / span 3;
+    grid-area: 1 / 1 / span 1 / span 5;
     margin-top: 50px;
     margin-left: 20px;
+    text-align: center;
 }
 
 #form {
     grid-area: 1 / 1 / span 2 / span 5;
-    margin: auto;
     margin-top: 100px;
     position: relative;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 10vw;
 }
 
 #myButton {
-    margin-top: 50px;
-    margin-left: 20px;
+    position: relative;
+    right: 10%;
+    margin-top: 20%;
     grid-area: 2 / 1 / span 2 / span 2;
+}
+
+#breakfast {
+    position: relative;
+    right: 28vw;
+}
+
+#snackOne {
+    position: relative;
+    right: 22vw;
+}
+
+#lunch {
+    position: relative;
+    right: 15vw;
+}
+
+#snackTwo {
+    position: relative;
+    right: 8vw;
+}
+
+#dinner {
+    position:relative;
+    right: 1vw;
+}
+
+img {
+    width: 70%;
+    float: right;
+}
+
+
+#ad {
+    position: sticky;
+    background-color: #FFF5CF;
+    bottom: 35%;
+    left: 15%;
+    max-width: 1200px;
+    margin: auto;
+    grid-area: 1 / 1 / span 4 / span 5;
+}
+
+#personalInfo {
+    float: left;
+    position: relative;
+    top: 200px;
+}
+
+#nameInput, #emailInput, #goalInput {
+    display: block;
+    margin: 40px auto;
+    position: relative;
+    bottom: 30px;
+    width: 80%;
+    font-size: 25px;
+    max-width: 500px;
+}
+
+#submitButton {
+    position: relative;
+    left: 35%;
 }
